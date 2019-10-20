@@ -1,0 +1,26 @@
+{
+  "name": "radbar-cli",
+  "version": "1.0.0",
+  "description": "radbar command line tool",
+  "main": "index.js",
+  "bin": {
+    "radbar": "./bin/radbar.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newtorn/radbar-cli.git"
+  },
+  "author": "Newtorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newtorn/radbar-cli/issues"
+  },
+  "homepage": "https://github.com/newtorn/radbar-cli#readme",
+  "dependencies": {
+    "radbar": "^1.0.1"
+  }
+}
